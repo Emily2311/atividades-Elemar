@@ -1,36 +1,33 @@
    body {
-            color: #b1a6a6;
-            font-family: Arial, sans-serif;
-            background-color: #cecaca;
-            margin: 0%;
-            padding: 20px;
+            font-family: Arial, sans-serif; /* Fonte */
+            background-color: #cecaca; /* Cor de fundo */
+            margin: 0; /* Remover margens padrão */
+            padding: 20px; /* Espaçamento interno */
         }
 
         
         h1 {
-            color: rgb(15, 4, 77);
-            font-weight: 900;
+            color: rgb(18, 1, 46); /* Cor do título */
+            font-weight: 700; /* Peso da fonte */
         }
 
         h3 {
-            color: #22046d;
-            font-weight: 800;
+            color: #11045a; /* Cor do subtítulo */
+            font-weight: 700; /* Peso da fonte */
         }
 
         p {
-            color: #1f1647;
+            color: #1f1647; /* Cor do parágrafo */
+            line-height: 1.5; /* Espaçamento entre linhas */
         }
 
         li {
-            color: rgb(43, 29, 70);
+            color: rgb(41, 29, 66); /* Cor dos itens da lista */
         }
 
         header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-right: 20px;
-            border: 3px solid rgb(255, 255, 255);
+            width: 150px; 
+            height: 150px; /* Tamanho da imagem */
         }
 
         
