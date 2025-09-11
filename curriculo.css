@@ -1,32 +1,61 @@
-   body {
-            font-family: Arial, sans-serif; /* Fonte */
-            background-color: #cecaca; /* Cor de fundo */
-            margin: 0; /* Remover margens padrão */
-            padding: 20px; /* Espaçamento interno */
-        } 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
 
-        h1 {
-            color: rgb(18, 1, 46); /* Cor do título */
-            font-weight: 700; /* Peso da fonte */
-        }
+* {
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
 
-        h3 {
-            color: #11045a; /* Cor do subtítulo */
-            font-weight: 700; /* Peso da fonte */
-        }
+body{
+padding: 10%;
+height: 100%;
+letter-spacing: 0.3px;
 
-        p {
-            color: #1f1647; /* Cor do parágrafo */
-            line-height: 1.5; /* Espaçamento entre linhas */
-        }
+}
 
-        li {
-            color: rgb(41, 29, 66); /* Cor dos itens da lista */
-        }
+img {
+width: 300px;
+height: auto;
+margin: 15px;
 
-        header img {
-            width: 150px; /* Tamanho da imagem */
-            height: 150px; /* Tamanho da imagem */
-        }
+}
+header {
+    letter-spacing: 1px;
+    line-height: 1.2;
+    display: flex;
+background-color: rgb(4, 5, 78);
+color: white;
+}
 
-        
+.contato {
+    text-align: center;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding: 5%;
+    line-height: 1.5;
+}
+.container {
+    line-height: 1.5;
+    padding: 3%;
+border: 1px solid #06064e;
+}
+
+.objetivos {
+padding-left: 20px;
+}
+
+.competencias {
+padding-left: 20px;
+}
+
+ul, p{
+font-family: Arial, sans-serif ;
+
+}
+
+.titulos h2 {
+    font-family:'Montserrat', sans-serif;
+color : #06064e;
+}
