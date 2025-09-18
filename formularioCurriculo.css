@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Container estilo folha A4 */
+.pagina-a4 {
+    width: 794px; /* largura aproximada A4 */
+    min-height: 1123px; /* altura aproximada A4 */
+    background-color: white;
+    border: 2px solid rgb(14, 6, 94);
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Header azul */
+header {
+    background-color: rgb(3, 3, 71);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Formulário */
+.formulario {
+    padding: 20px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 15px 0;
+    border: 1px solid rgb(6, 2, 53);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Textarea maior */
+.mensagem {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Labels */
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.botao-enviar input[type="submit"] {
+    background-color: rgb(4, 5, 78);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.botao-enviar input[type="submit"]:hover {
+    background-color: rgb(0, 0, 120);
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.checkbox-group div {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}

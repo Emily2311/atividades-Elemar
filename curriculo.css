@@ -2,7 +2,7 @@
 
 * {
     padding: 0;
-    margin: auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -14,32 +14,32 @@ letter-spacing: 0.3px;
 }
 
 img {
-width: 300px;
+width: 200px;
 height: auto;
-margin: 15px;
+margin: px;
 
 }
 header {
+    display: flex;
+    justify-content: space-between; /* separa os itens horizontalmente */
+    align-items: center; /* alinha verticalmente */
+    padding: 15px 30px; /* espaçamento interno */
+    background-color: rgb(4, 5, 78);
+    color: white;
     letter-spacing: 1px;
     line-height: 1.2;
-    display: flex;
-background-color: rgb(4, 5, 78);
-color: white;
+
 }
 
 .contato {
-    text-align: center;
-    font-size: 14px;
-    margin-left: 30px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    padding: 5%;
-    line-height: 1.5;
+
+    text-align: left; /* mantém alinhamento dos textos */
+    min-width: 200px;
 }
 .container {
     line-height: 1.5;
     padding: 3%;
-border: 1px solid #06064e;
+border: 2px solid #06064e;
 }
 
 .objetivos {
@@ -59,3 +59,19 @@ font-family: Arial, sans-serif ;
     font-family:'Montserrat', sans-serif;
 color : #06064e;
 }
+
+.botao {
+     display: flex; 
+     justify-content: flex-end; 
+     margin-top: 20px 
+    } 
+     
+     button { 
+        background-color: #06064e; 
+        color: white; 
+        padding: 5px 10px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-size: 16px; 
+        margin-top: 20px; }
